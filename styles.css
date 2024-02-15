@@ -7,10 +7,10 @@ body {
   font-family: 'Fira Sans', sans-serif;
   color: black;
   background-color: #999;
+  background-image: url("images/smith-rock.webp")
 }
 
 header {
-  border: 2px solid hotpink;
   height: 10rem;
   display: flex;
   justify-content: center;
@@ -18,8 +18,8 @@ header {
 }
 
 .header-div {
-  border: 2px solid hotpink;
   width: 50%;
+  margin: auto;
 }
 
 .header-logo {
