@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Fira Sans";
+  src: url(fonts/FiraSans-Regular.ttf);
+}
+
+body {
+  font-family: 'Fira Sans', sans-serif;
+  color: black;
+}
