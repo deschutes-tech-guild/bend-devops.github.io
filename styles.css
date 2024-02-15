@@ -6,4 +6,41 @@
 body {
   font-family: 'Fira Sans', sans-serif;
   color: black;
+  background-color: #999;
+}
+
+header {
+  border: 2px solid hotpink;
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+
+}
+
+.header-div {
+  border: 2px solid hotpink;
+  width: 50%;
+}
+
+.header-logo {
+  width: 8rem;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+
+}
+
+.main-div {
+  background: #fff;
+  width: 50%;
+  height: 50rem;
+  
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  border: 2px solid hotpink;
 }
