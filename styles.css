@@ -38,7 +38,6 @@ header {
 .main-div {
   background: #fff;
   width: 50%;
-  height: 50rem;
   border-radius: 10px;
   
 }
@@ -46,7 +45,7 @@ header {
 .section-div {
   border: 2px solid hotpink;
   padding: 20px;
-  margin: 20px;
+  margin: auto;
   height: 20rem;
 }
 
@@ -67,7 +66,7 @@ footer {
 }
 
 a {
-  color: white;
+  color: black;
   text-decoration: none;
 }
 
