@@ -94,18 +94,34 @@
         <div class="form">
           <div class="form-div">
 
-            <label>Contact Us</label>
+            <label hidden>Contact Us</label>
             <form>
               <select class="select">
                 <option value="contact">Contact Us</option>
                 <option value="sponsor">Sponsor a Meetup</option>
                 <option value="talk">Give a Talk</option>
               </select>
-                <div class="select-div">
+
+                <div class="select-div contact" hidden>
                   <input typ="text" class="name" placeholder="John Smith">
                   <input type="email" class="email" placeholder="js@example.com">
                   <textarea placeholder="Message..." class="message"></textarea>
                 </div>
+                <div class="select-div sponsor" hidden>
+                  <input typ="text" class="name" placeholder="John Smith">
+                  <input type="email" class="email" placeholder="js@example.com">
+                  <input type="text" class="company" placeholder="Hooli">
+                  <textarea placeholder="Message..." class="message"></textarea>
+                </div>
+                <div class="select-div talk" >
+                  <input typ="text" class="name" placeholder="John Smith">
+                  <input type="email" class="email" placeholder="js@example.com">
+                  <div class="email"> Can your company sponsor?</div>
+                  <textarea placeholder="Your Bio..." class="message"></textarea>
+                  <textarea placeholder="Description of your talk..." class="message"></textarea>
+                  <textarea placeholder="Message..." class="message"></textarea>
+                </div>
+
               </div>
             </form>
 
