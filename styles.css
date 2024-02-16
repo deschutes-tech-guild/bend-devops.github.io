@@ -1,6 +1,9 @@
 @font-face {
   font-family: "Fira Sans";
-  src: url(fonts/FiraSans-Regular.ttf);
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/FiraSans-Regular.ttf) format("TrueType");
 }
 
 body {
@@ -38,15 +41,23 @@ header {
 .main-div {
   background: #fff;
   width: 50%;
-  border-radius: 10px;
+  border-radius: 13px;
   
 }
 
+h1, h2 {
+  font-weight: 500;
+}
+
 .section-div {
-  border: 2px solid hotpink;
   padding: 20px;
+  padding-left: 3rem;
   margin: auto;
-  height: 20rem;
+  height: auto;
+}
+
+p {
+  width: 80%;
 }
 
 footer {
