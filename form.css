@@ -1,0 +1,48 @@
+.form {
+  display: flex;
+  justify-content: center;
+  border: 2px solid hotpink;
+  height: 30rem;
+}
+
+
+.form-div {
+  border: 2px solid grey;
+  padding: 7px;
+  margin: 2px;
+  border-radius: 7px;
+  width: 35%
+}
+
+.select {
+  border: 2px solid grey;
+  padding: 7px;
+  margin: 2px;
+  border-radius: 7px;
+}
+
+.select-div {
+  border: 2px solid grey;
+  padding: 7px;
+  margin: 2px;
+  border-radius: 7px;
+}
+.name {
+  border: 2px solid grey;
+  padding: 7px;
+  margin: 2px;
+  border-radius: 7px;
+}
+.email {
+  border: 2px solid grey;
+  padding: 7px;
+  margin: 2px;
+  border-radius: 7px;
+}
+.message{
+  border: 2px solid grey;
+  padding: 7px;
+  margin: 2px;
+  border-radius: 7px;
+  width: 30%;
+}
