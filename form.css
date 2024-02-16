@@ -1,7 +1,6 @@
 .form {
   display: flex;
   justify-content: center;
-  border: 2px solid hotpink;
   height: 20rem;
 }
 
@@ -14,12 +13,26 @@
   width: 50%
 }
 
+label {
+  margin-le: 2;
+}
+
+.select, .name, .email, .message {
+  font-family: 'Fira Sans';
+}
+
 .select {
   border: 2px solid grey;
   padding: 7px;
   margin: 2px;
   border-radius: 7px;
   width: 69%;
+  font-size: 16px;
+}
+
+
+.select:focus {
+  border: 2px solid grey;
 }
 
 .select-div {
