@@ -55,6 +55,15 @@ h1, h2 {
   margin: auto;
   height: auto;
 }
+.sponsors-div {
+  display: flex;
+  justify-content: center;
+}
+
+.community-div {
+  display: flex;
+  justify-content: space-around;
+}
 
 p {
   width: 80%;
