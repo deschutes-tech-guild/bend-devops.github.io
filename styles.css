@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: 'Fira Sans', sans-serif;
+  font-family: "Fira Sans", sans-serif;
   color: black;
   background-color: #999;
   background-image: url("images/smith-rock.webp");
@@ -19,7 +19,6 @@ header {
   height: 22rem;
   display: flex;
   justify-content: center;
-
 }
 
 .header-div {
@@ -35,17 +34,16 @@ header {
 .main {
   display: flex;
   justify-content: center;
-  
 }
 
 .main-div {
   background: #fff;
   width: 50%;
   border-radius: 13px;
-  
 }
 
-h1, h2 {
+h1,
+h2 {
   font-weight: 500;
 }
 
@@ -81,7 +79,6 @@ footer {
   padding: 2.5rem;
   display: flex;
   justify-content: center;
-
 }
 
 a {
@@ -92,4 +89,3 @@ a {
   padding: 2px 2px 2px 5px;
   text-decoration: none;
 }
-

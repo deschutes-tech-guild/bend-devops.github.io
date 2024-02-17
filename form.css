@@ -4,7 +4,6 @@
   min-height: 17rem;
 }
 
-
 .form-div {
   border: 2px solid grey;
   padding: 7px;
@@ -14,8 +13,11 @@
   box-shadow: 0px 2px 1px grey;
 }
 
-.select, .name, .email, .message {
-  font-family: 'Fira Sans';
+.select,
+.name,
+.email,
+.message {
+  font-family: "Fira Sans";
 }
 
 .select {
@@ -27,7 +29,6 @@
   font-size: 16px;
 }
 
-
 .select:focus {
   border: 2px solid grey;
 }
@@ -38,18 +39,19 @@
   margin: 2px;
   border-radius: 7px;
 }
+
 .name {
   border: 2px solid grey;
   padding: 7px;
-  margin: 2px 2px 5px 2px ;
+  margin: 2px 2px 5px 2px;
   border-radius: 7px;
   width: 70%;
-  
 }
+
 .email {
   border: 2px solid grey;
   padding: 7px;
-  margin: 2px 2px 5px 2px ;
+  margin: 2px 2px 5px 2px;
   margin: 2px;
   border-radius: 7px;
   width: 70%;
@@ -58,13 +60,13 @@
 .company {
   border: 2px solid grey;
   padding: 7px;
-  margin: 2px 2px 5px 2px ;
+  margin: 2px 2px 5px 2px;
   margin: 2px;
   border-radius: 7px;
   width: 70%;
-
 }
-.message{
+
+.message {
   border: 2px solid grey;
   padding: 7px;
   margin: 2px;
