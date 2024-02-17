@@ -19,16 +19,28 @@ header {
   height: 22rem;
   display: flex;
   justify-content: center;
+
+  @media (max-width: 425px) {
+    height: 10rem;
+  }
 }
+
 
 .header-div {
   width: 50%;
   margin: auto;
+
+  @media (max-width: 425px) {
+    width: 95%;
+  }
 }
 
 .header-logo {
   width: 12rem;
   border-radius: 10px;
+  @media (max-width: 425px) {
+    width: 8rem;
+  }
 }
 
 .main {
@@ -40,6 +52,10 @@ header {
   background: #fff;
   width: 50%;
   border-radius: 13px;
+
+  @media (max-width: 425px) {
+    width: 95%;
+  }
 }
 
 h1,
