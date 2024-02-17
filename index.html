@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css" />
   <link rel="stylesheet" href="form.css" />
+  <script src="/script.js" defer></script>
   <link rel="icon" type="image/x-icon" href="images/logo_tab.webp" alt="image-icon">
   <title>Bend DevOps</title>
 </head>
@@ -96,24 +97,26 @@
 
             <label hidden>Contact Us</label>
             <form>
-              <select class="select">
+              <select class="select" id="select">
                 <option value="contact">Contact Us</option>
                 <option value="sponsor">Sponsor a Meetup</option>
                 <option value="talk">Give a Talk</option>
               </select>
 
-                <div class="select-div contact" hidden>
+                <div class="select-div" id="contact" >
                   <input typ="text" class="name" placeholder="John Smith">
                   <input type="email" class="email" placeholder="js@example.com">
                   <textarea placeholder="Message..." class="message"></textarea>
                 </div>
-                <div class="select-div sponsor" hidden>
+
+                <div class="select-div" id="sponsor" hidden>
                   <input typ="text" class="name" placeholder="John Smith">
                   <input type="email" class="email" placeholder="js@example.com">
                   <input type="text" class="company" placeholder="Hooli">
                   <textarea placeholder="Message..." class="message"></textarea>
                 </div>
-                <div class="select-div talk" >
+
+                <div class="select-div" id="talk" hidden>
                   <input typ="text" class="name" placeholder="John Smith">
                   <input type="email" class="email" placeholder="js@example.com">
                   <div class="email"> Can your company sponsor?</div>
