@@ -77,13 +77,19 @@ footer {
   color: white;
 }
 
-.footer-div {
-  padding: 1.5rem;
+.attr-div {
+  padding: 2.5rem;
+  display: flex;
+  justify-content: center;
 
 }
 
 a {
   color: black;
+}
+
+.attr-link {
+  padding: 2px 2px 2px 5px;
   text-decoration: none;
 }
 
