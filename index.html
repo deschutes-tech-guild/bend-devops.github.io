@@ -96,39 +96,58 @@
           <div class="form-div">
 
             <label hidden>Contact Us</label>
-            <form>
-              <select class="select" id="select">
-                <option value="contact">Contact Us</option>
-                <option value="sponsor">Sponsor a Meetup</option>
-                <option value="talk">Give a Talk</option>
-              </select>
 
-                <div class="select-div" id="contact" >
-                  <input typ="text" class="name" placeholder="John Smith">
-                  <input type="email" class="email" placeholder="js@example.com">
-                  <textarea placeholder="Message..." class="message"></textarea>
-                </div>
+            <select class="select" id="select">
+              <option value="contact">Contact Us</option>
+              <option value="sponsor">Sponsor a Meetup</option>
+              <option value="talk">Give a Talk</option>
+            </select>
+            
+            <div class="select-div" id="contact" >
+                <form
+                action="https://formspree.io/f/mpzvdnqa"
+                method="POST"
+                >
+                  <input type="text" class="name" name="name" placeholder="John Smith" required>
+                  <input type="email" class="email" name="email" placeholder="js@example.com" required>
+                  <textarea placeholder="Message..." name="message" class="message" required></textarea>
+                  <button type="submit">Send</button>
+                </form>
+              </div>
 
-                <div class="select-div" id="sponsor" hidden>
-                  <input typ="text" class="name" placeholder="John Smith">
-                  <input type="email" class="email" placeholder="js@example.com">
-                  <input type="text" class="company" placeholder="Hooli">
-                  <textarea placeholder="Message..." class="message"></textarea>
-                </div>
+              <div class="select-div" id="sponsor" hidden>
+                <form
+                action="https://formspree.io/f/mpzvdnqa"
+                method="POST"
+                >
+                  <input type="text" class="name" name="name" placeholder="John Smith" required>
+                  <input type="email" class="email" name="email" placeholder="js@example.com" required>
+                  <input type="text" class="company" name="company" placeholder="Hooli" required>
+                  <textarea placeholder="Message..." name="message" class="message" required></textarea>
+                  <button type="submit">Send</button>
+                </form>
+              </div>
 
-                <div class="select-div" id="talk" hidden>
-                  <input typ="text" class="name" placeholder="John Smith">
-                  <input type="email" class="email" placeholder="js@example.com">
+              <div class="select-div" id="talk" hidden>
+                <form
+                action="https://formspree.io/f/mpzvdnqa"
+                method="POST"
+                >
+                  <input typ="text" class="name" name="name" placeholder="John Smith" required>
+                  <input type="email" class="email" name="email" placeholder="js@example.com" required>
+
                   <div class="email"> Can your company sponsor?</div>
                   <div class="email"> Yes No</div>
 
-                  <textarea placeholder="Your Bio..." class="message"></textarea>
-                  <textarea placeholder="Description of your talk..." class="message"></textarea>
-                  <textarea placeholder="Message..." class="message"></textarea>
-                </div>
+                  <textarea placeholder="Your Bio..." class="message" name="bio" required></textarea>
+                  <textarea placeholder="Description of your talk..." class="message" name="summary" required></textarea>
+                  <textarea placeholder="Message..." class="message" name="message" required></textarea>
+                  <button type="submit">Send</button>
+                </form>
 
               </div>
-            </form>
+              
+            </div>
 
             </div>
           </div>
