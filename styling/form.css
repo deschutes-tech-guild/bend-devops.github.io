@@ -16,7 +16,9 @@
 .select,
 .name,
 .email,
-.message {
+.message,
+.company,
+.submit {
   font-family: "Fira Sans";
 }
 
@@ -39,6 +41,7 @@
   margin: 2px;
   border-radius: 7px;
 }
+
 
 .name {
   border: 2px solid grey;
@@ -79,13 +82,19 @@
 }
 
 .submit {
-  font-family: 'Fira Sans';
   margin: 2px;
+  background-color: #fff;
+  border: 2px solid grey;
+  border-radius: 5px;
   
 }
 
 .submit:hover {
   cursor: pointer;
+}
+
+.submit:focus {
+  background: #ddd;
 }
 
 .submit-div {
