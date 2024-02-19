@@ -77,3 +77,18 @@
   height: 5rem;
   min-height: 5rem;
 }
+
+.submit {
+  font-family: 'Fira Sans';
+  margin: 2px;
+  
+}
+
+.submit:hover {
+  cursor: pointer;
+}
+
+.submit-div {
+  display: flex;
+  justify-content: right;
+}
