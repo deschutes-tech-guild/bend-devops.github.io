@@ -3,14 +3,14 @@
   font-display: swap;
   font-style: normal;
   font-weight: 400;
-  src: url(fonts/FiraSans-Regular.ttf) format("TrueType");
+  src: url(../fonts/FiraSans-Regular.ttf) format("TrueType");
 }
 
 body {
   font-family: "Fira Sans", sans-serif;
   color: black;
   background-color: #999;
-  background-image: url("images/smith-rock.webp");
+  background-image: url("../images/smith-rock.webp");
   background-attachment: fixed;
   background-size: cover;
 }
