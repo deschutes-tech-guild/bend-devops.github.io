@@ -7,10 +7,15 @@
 .form-div {
   border: 2px solid grey;
   padding: 7px;
-  margin: 2px;
   border-radius: 7px;
   width: 50%;
   box-shadow: 0px 2px 1px grey;
+
+  @media (max-width: 425px) {
+    width: 90%;
+  }
+
+  
 }
 
 .select,
@@ -30,6 +35,10 @@
   border-radius: 7px;
   width: 69%;
   font-size: 16px;
+
+  @media (max-width: 425px) {
+    font-size: 14px
+  }
 }
 
 .select:focus {
@@ -79,14 +88,25 @@
   min-width: 95%;
   height: 5rem;
   min-height: 5rem;
+
+  @media (max-width: 425px) {
+    width: 90%;
+    max-width: 90%;
+    min-width: 90%;
+  }
 }
 
 .submit {
   margin: 2px;
+  padding: 2px;
   background-color: #fff;
   border: 2px solid grey;
   border-radius: 5px;
-  width: 13%;
+  width: 3rem;
+
+  @media (max-width: 425px) {
+    /* width: 20% */
+  }
 }
 
 .submit:hover {
