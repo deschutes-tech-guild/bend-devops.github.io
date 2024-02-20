@@ -67,7 +67,7 @@ h2 {
   font-weight: 500;
 }
 
-.section-div {
+.section {
   padding: 20px;
   padding-left: 3rem;
   margin: auto;
@@ -82,7 +82,7 @@ h2 {
   justify-content: center;
 }
 
-.community-div {
+.community {
   display: flex;
   justify-content: space-around;
 }
