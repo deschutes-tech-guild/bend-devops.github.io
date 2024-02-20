@@ -18,7 +18,8 @@
 .email,
 .message,
 .company,
-.submit {
+.submit,
+.select-sponsor {
   font-family: "Fira Sans";
 }
 
@@ -41,7 +42,6 @@
   margin: 2px;
   border-radius: 7px;
 }
-
 
 .name {
   border: 2px solid grey;
@@ -86,7 +86,7 @@
   background-color: #fff;
   border: 2px solid grey;
   border-radius: 5px;
-  
+  width: 13%;
 }
 
 .submit:hover {
@@ -100,4 +100,23 @@
 .submit-div {
   display: flex;
   justify-content: right;
+}
+
+.sponsor-div {
+  display: flex;
+
+  font-size: 14px;
+}
+
+.select-sponsor {
+  border: 2px solid grey;
+  padding: 7px;
+  margin: 2px 2px 5px 2px;
+  margin: 2px;
+  border-radius: 7px;
+  width: 20%;
+}
+
+option {
+  border-radius: 2px;
 }

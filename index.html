@@ -125,7 +125,7 @@
                   <input type="text" class="name" name="name" placeholder="John Smith" required>
                   <input type="email" class="email" name="email" placeholder="name@example.com" required>
                   <input type="text" class="company" name="company" placeholder="Your Company Name" required>
-                  <textarea placeholder="Message..." name="message" class="message" required></textarea>
+                  <textarea placeholder="Message..." name="message" class="message" ></textarea>
                   <div class="submit-div">
                     <button type="submit" class="submit">Send</button>
                   </div>
@@ -140,12 +140,19 @@
                   <input typ="text" class="name" name="name" placeholder="John Smith" required>
                   <input type="email" class="email" name="email" placeholder="name@example.com" required>
 
-                  <div class="email"> Can your company sponsor?</div>
-                  <div class="email"> Yes No</div>
+                  <div class="sponsor-div">
+                    <div class="email"> Can your company sponsor? </div>
+                    <select class="select-sponsor" name="company-sponsor" id="company-sponsor" required>
+                      <option></option>
+                      <option value="Yes">Yes</option>
+                      <option value="No">No</option>
+                    </select>
+                  </div>
+                  
 
                   <textarea placeholder="Your Bio..." class="message" name="bio" required></textarea>
                   <textarea placeholder="Description of your talk..." class="message" name="summary" required></textarea>
-                  <textarea placeholder="Message..." class="message" name="message" required></textarea>
+                  <textarea placeholder="Message..." class="message" name="message" ></textarea>
                   <div class="submit-div">
                     <button type="submit" class="submit">Send</button>
                   </div>
