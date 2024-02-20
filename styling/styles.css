@@ -6,6 +6,10 @@
   src: url(../fonts/FiraSans-Regular.ttf) format("TrueType");
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Fira Sans", sans-serif;
   color: black;
