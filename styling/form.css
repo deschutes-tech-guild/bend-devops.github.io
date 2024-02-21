@@ -26,6 +26,10 @@
 .submit,
 .select-sponsor {
   font-family: "Fira Sans";
+
+  @media (max-width: 425px) {
+    font-size: 12px;
+  }
 }
 
 .select {
@@ -96,6 +100,11 @@
   }
 }
 
+.submit-div {
+  display: flex;
+  justify-content: right;
+}
+
 .submit {
   margin: 2px;
   padding: 2px;
@@ -106,6 +115,7 @@
 
   @media (max-width: 425px) {
     /* width: 20% */
+    /* margin: auto; */
   }
 }
 
@@ -117,15 +127,13 @@
   background: #ddd;
 }
 
-.submit-div {
-  display: flex;
-  justify-content: right;
-}
 
 .sponsor-div {
   display: flex;
 
   font-size: 14px;
+
+  @media
 }
 
 .select-sponsor {
@@ -135,6 +143,11 @@
   margin: 2px;
   border-radius: 7px;
   width: 20%;
+
+  @media (max-width: 425px) {
+    height: 4rem;
+  }
+
 }
 
 option {
