@@ -22,13 +22,16 @@
   padding: 7px;
   border-radius: 5px;
   width: 50%;
+  max-width: 20rem;
   box-shadow: 0px 2px 1px grey;
 
   @media (max-width: 425px) {
     width: 90%;
   }
 
-  
+  @media (min-width: 425px) and (max-width: 1900px) {
+    width: 90%;
+  }
 }
 
 .select,
@@ -98,29 +101,35 @@
 .message {
   border: 2px solid grey;
   padding: 7px;
-  margin: 2px;
+  margin: 2px 2px 2px 2px;
   border-radius: 5px;
-  width: 90%;
-  max-width: 95%;
-  min-width: 95%;
-  height: 5rem;
-  min-height: 5rem;
+  width: 85%;
+  max-width: 92%;
+  min-width: 92%;
+  height: 2.75rem;
+  min-height: 2.75rem;
 
   @media (max-width: 425px) {
-    width: 90%;
-    max-width: 90%;
-    min-width: 90%;
+    width: 92%;
+    max-width: 92%;
+    min-width: 92%;
   }
 }
 
 .submit-div {
   display: flex;
   justify-content: right;
+  /* border: 2px solid hotpink; */
+  width: 100%;
+  margin: 2px 2px 2px 2px;
+  /* width: 99%;
+  max-width: 99%;
+  min-width: 99%; */
 }
 
 .submit {
-  margin: 2px;
-  padding: 2px;
+  /* margin: 2px; */
+  /* padding: 2px; */
   background-color: #fff;
   border: 2px solid grey;
   border-radius: 4px;
