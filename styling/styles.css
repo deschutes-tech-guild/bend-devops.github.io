@@ -99,8 +99,20 @@ h2 {
 .community {
   display: flex;
   justify-content: space-around;
+  align-items: center;
 
-  margin: 5rem
+  margin: 5rem;
+  border: 2px solid hotpink;
+}
+
+.discord {
+  height: 4rem;
+  border: 2px solid hotpink;
+}
+
+.meetup {
+  height: 5rem;
+  border: 2px solid hotpink;
 }
 
 p {
