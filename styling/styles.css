@@ -103,17 +103,14 @@ h2 {
   
 
   margin: 5rem;
-  border: 2px solid hotpink;
 }
 
 .discord {
-  height: 3.4rem;
-  border: 2px solid hotpink;
+  height: 3.5rem;
 }
 
 .meetup {
-  height: 3.4rem;
-  border: 2px solid hotpink;
+  height: 4rem;
 }
 
 p {
