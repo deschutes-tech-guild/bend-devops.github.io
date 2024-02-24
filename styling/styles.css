@@ -29,11 +29,15 @@ header {
   }
 }
 
-.logo-div {
+.bdo-main {
   display: flex;
   justify-content: space-between;
+  border: 2px solid hotpink;
+  @media (max-width: 425px) {
+    flex-direction: column;
+  }
 }
-.test-div {
+.bdo-about {
   width: 75%;
 }
 .header-div {
@@ -45,7 +49,7 @@ header {
   }
 }
 
-.header-logo {
+.bdo-logo {
   height: 10rem;
   border-radius: 10px;
   @media (max-width: 425px) {
@@ -92,7 +96,6 @@ h2 {
   height: auto;
 
   @media (max-width: 425px) {
-    /* padding: 5px 10px 10px 25px; */
     padding: 20px;
   }
 }
