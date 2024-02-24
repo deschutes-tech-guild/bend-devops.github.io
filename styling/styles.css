@@ -20,7 +20,7 @@ body {
 }
 
 header {
-  height: 22rem;
+  height: 5rem;
   display: flex;
   justify-content: center;
 
@@ -29,17 +29,24 @@ header {
   }
 }
 
+.logo-div {
+  display: flex;
+  justify-content: space-between;
+}
+.test-div {
+  width: 75%;
+}
 .header-div {
   width: 50%;
   margin: auto;
-
+  
   @media (max-width: 425px) {
     width: 95%;
   }
 }
 
 .header-logo {
-  width: 12rem;
+  height: 10rem;
   border-radius: 10px;
   @media (max-width: 425px) {
     width: 8rem;
@@ -53,7 +60,7 @@ header {
 
 .main-div {
   background: #fff;
-  width: 50%;
+  width: 45%;
   border-radius: 13px;
 
   @media (max-width: 425px) {
@@ -68,6 +75,14 @@ header {
 h1,
 h2 {
   font-weight: 500;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+h2 {
+  font-size: 30px;
 }
 
 .section {
