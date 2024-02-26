@@ -24,6 +24,22 @@ Snyk finds and automatically fixes vulnerabilities in your code, open source dep
 
 ---
 
+## Contributing
+
+### How to Contribute 
+
+1. Fork the repository
+2. Clone your fork
+3. Create a new branch
+4. Make your changes
+5. Commit and push your changes
+6. Create a pull request
+7. Wait for your pull request to be reviewed and merged
+
+
+
+---
+
 ## Special thanks to our Contributors! 
 
 [@MrKomputerKid](https://github.com/MrKomputerKid)
