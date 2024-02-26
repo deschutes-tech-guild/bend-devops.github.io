@@ -3,12 +3,12 @@
 window.addEventListener('load', function() {
     // Array of background images in the images folder
     const backgroundImageNames = [
-        'image1.webp',
-        'image2.webp',
-        'image3.webp',
-        'image4.webp',
-        'image5.webp',
-        'image6.webp'
+        'bg1.webp',
+        'bg2.webp',
+        'bg3.webp',
+        'bg4.webp',
+        'bg5.webp',
+        'bg6.webp'
     ];
 
     // Generate a random inde to pick a background image.
