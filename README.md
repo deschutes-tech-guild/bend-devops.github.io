@@ -37,9 +37,10 @@ Snyk finds and automatically fixes vulnerabilities in your code, open source dep
 7. Wait for your pull request to be reviewed and merged
 
 
-
 ---
 
-## Special thanks to our Contributors! 
+## Contributors
+
+### Special thanks to our Contributors! 
 
 [@MrKomputerKid](https://github.com/MrKomputerKid)
