@@ -21,3 +21,9 @@ Also, there's no need to wait for the meetup to join the discussion! Come hang o
 ## We're also Proudly Sponsored by [Snyk](https://snyk.io/)! 
 
 Snyk finds and automatically fixes vulnerabilities in your code, open source dependencies, containers, and IaC — powered by Snyk’s industry-leading security intelligence and DeepCode AI. And the best part? It's got a free-forever user plan for personal projects!
+
+---
+
+## Special thanks to our Contributors! 
+
+@MrKomputerKid
