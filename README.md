@@ -26,4 +26,4 @@ Snyk finds and automatically fixes vulnerabilities in your code, open source dep
 
 ## Special thanks to our Contributors! 
 
-@MrKomputerKid
+[@MrKomputerKid](https://github.com/MrKomputerKid)
