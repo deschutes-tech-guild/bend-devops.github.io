@@ -36,13 +36,15 @@ header {
     flex-direction: column;
   }
 }
+
 .bdo-about {
   width: 75%;
 }
+
 .header-div {
   width: 50%;
   margin: auto;
-  
+
   @media (max-width: 425px) {
     width: 95%;
   }
@@ -70,7 +72,7 @@ header {
     width: 100%;
   }
 
-  @media (min-width:425px) and (max-width: 900px) {
+  @media (min-width: 425px) and (max-width: 900px) {
     width: 95%;
   }
 }
@@ -104,7 +106,6 @@ h2 {
   @media (max-width: 425px) {
     width: 100%;
   }
-
 }
 
 .sponsor-logos {
@@ -117,9 +118,13 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
 
   margin: 5rem;
+
+  @media (max-width: 425px) {
+    display: column;
+    width: 20%;
+  }
 }
 
 .discord {
@@ -132,6 +137,8 @@ h2 {
 
 .snyk {
   width: 22rem;
+
+  
 }
 
 p {
@@ -145,7 +152,6 @@ footer {
   height: 2rem;
   color: white;
 }
-
 
 a {
   color: black;
