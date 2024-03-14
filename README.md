@@ -1,6 +1,6 @@
-# The Bend DevOps website
+# This is the old repo for the site, you can find the current repo [here](https://github.com/bend-devops/benddevops)
+## The Bend DevOps website
 
-This is our community website.
 
 Feel free to fork this site, and play around with it.
 
